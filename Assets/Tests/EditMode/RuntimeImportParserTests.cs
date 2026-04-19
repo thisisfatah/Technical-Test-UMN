@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using NUnit.Framework;
 
 namespace Aquascape.Tests
@@ -42,3 +43,4 @@ namespace Aquascape.Tests
         }
     }
 }
+#endif
