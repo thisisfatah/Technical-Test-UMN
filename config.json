@@ -1,0 +1,126 @@
+{
+  "scanner": {
+    "folderName": "RuntimeImports",
+    "pollIntervalSeconds": 0.5
+  },
+  "food": {
+    "lifetimeSeconds": 16.0,
+    "scale": 0.22,
+    "bobAmplitude": 0.08,
+    "bobFrequency": 2.4
+  },
+  "interaction": {
+    "fleeDurationSeconds": 1.6,
+    "fleeSpeedMultiplier": 1.85
+  },
+  "fish": {
+    "default": {
+      "type": "DEFAULT",
+      "minSpeed": 0.72,
+      "maxSpeed": 1.4,
+      "detectionRadius": 2.4,
+      "hungerCooldown": 4.8,
+      "hungerDrainPerSecond": 12.0,
+      "scale": 0.92,
+      "turnResponsiveness": 3.8,
+      "wanderRetargetSeconds": 2.4,
+      "avoidanceStrength": 1.2
+    },
+    "types": [
+      {
+        "type": "ANGELFISH",
+        "minSpeed": 0.7,
+        "maxSpeed": 1.28,
+        "detectionRadius": 2.7,
+        "hungerCooldown": 4.8,
+        "hungerDrainPerSecond": 11.0,
+        "scale": 0.92,
+        "turnResponsiveness": 3.5,
+        "wanderRetargetSeconds": 2.6,
+        "avoidanceStrength": 1.15
+      },
+      {
+        "type": "COD",
+        "minSpeed": 0.95,
+        "maxSpeed": 1.7,
+        "detectionRadius": 2.2,
+        "hungerCooldown": 4.3,
+        "hungerDrainPerSecond": 14.0,
+        "scale": 1.05,
+        "turnResponsiveness": 4.6,
+        "wanderRetargetSeconds": 1.8,
+        "avoidanceStrength": 1.35
+      },
+      {
+        "type": "POMFRET",
+        "minSpeed": 0.78,
+        "maxSpeed": 1.42,
+        "detectionRadius": 2.6,
+        "hungerCooldown": 5.0,
+        "hungerDrainPerSecond": 10.5,
+        "scale": 0.95,
+        "turnResponsiveness": 3.9,
+        "wanderRetargetSeconds": 2.4,
+        "avoidanceStrength": 1.18
+      },
+      {
+        "type": "SEAHORSE",
+        "minSpeed": 0.48,
+        "maxSpeed": 0.95,
+        "detectionRadius": 3.1,
+        "hungerCooldown": 5.8,
+        "hungerDrainPerSecond": 9.0,
+        "scale": 0.88,
+        "turnResponsiveness": 2.8,
+        "wanderRetargetSeconds": 3.4,
+        "avoidanceStrength": 1.05
+      },
+      {
+        "type": "STARFISH",
+        "minSpeed": 0.36,
+        "maxSpeed": 0.72,
+        "detectionRadius": 1.8,
+        "hungerCooldown": 6.4,
+        "hungerDrainPerSecond": 8.2,
+        "scale": 0.78,
+        "turnResponsiveness": 2.2,
+        "wanderRetargetSeconds": 3.8,
+        "avoidanceStrength": 0.9
+      }
+    ]
+  },
+  "trash": {
+    "default": {
+      "type": "DEFAULT",
+      "minSpeed": 0.22,
+      "maxSpeed": 0.52,
+      "scale": 0.88,
+      "swayAmplitude": 0.16,
+      "swayFrequency": 1.2,
+      "driftChangeInterval": 2.8,
+      "avoidanceStrength": 0.7
+    },
+    "types": [
+      {
+        "type": "CHIPS",
+        "minSpeed": 0.22,
+        "maxSpeed": 0.58,
+        "scale": 0.78,
+        "swayAmplitude": 0.24,
+        "swayFrequency": 1.5,
+        "driftChangeInterval": 2.2,
+        "avoidanceStrength": 0.8
+      },
+      {
+        "type": "LOG",
+        "minSpeed": 0.12,
+        "maxSpeed": 0.36,
+        "scale": 1.08,
+        "swayAmplitude": 0.1,
+        "swayFrequency": 0.8,
+        "driftChangeInterval": 3.6,
+        "avoidanceStrength": 0.6
+      }
+    ]
+  }
+}
